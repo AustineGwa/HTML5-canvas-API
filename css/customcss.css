@@ -1,0 +1,62 @@
+body{
+	
+	background-color:#7a7d7c;
+}
+.center{
+	
+	margin-left: auto;
+    margin-right: auto;
+}
+
+
+th, td {
+    padding: 10px;
+	background-color:red;
+}
+.buttons{
+	margin-left:20px;
+	
+}
+.row{
+	
+	margin-top:20px;
+}
+
+.white-box{
+	
+	margin:0px, auto;
+	background-color:#ffffff
+}
+.brown-box{
+	
+	
+	background-color:#c8cdcc;
+	margin-left:10px;
+}
+
+
+#myCanvas{
+	margin-left: auto;
+    margin-right: auto;
+	
+	
+}
+.black{
+	
+	background:#000000
+}
+.default{
+	
+	background:#7a7d7c;
+}
+#triangle {
+	position: relative;
+}
+#triangle:after{
+	position:absolute;
+   width: 0;
+   height : 0;
+   border-top:10px solid transparent;
+   border-bottom: 10px solid transparent;
+   border-right:10px solid blue;
+}
